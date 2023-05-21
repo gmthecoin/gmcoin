@@ -16,10 +16,8 @@
   <div id="root"></div>
   
   <script type="text/javascript">
-  	try {
-
-
-    function drawVisor() {
+  	function moon(){
+function drawVisor() {
       const canvas = document.getElementById('visor');
       const ctx = canvas.getContext('2d');
   
@@ -96,10 +94,8 @@
   
     drawVisor();
     animate();
-}
-catch (err) {
-  
-}
+	}
+	setTimeout(moon, 10000);
   </script>
 </body>
 
