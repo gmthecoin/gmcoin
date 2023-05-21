@@ -16,6 +16,9 @@
   <div id="root"></div>
   
   <script type="text/javascript">
+  	try {
+
+
     function drawVisor() {
       const canvas = document.getElementById('visor');
       const ctx = canvas.getContext('2d');
@@ -93,6 +96,10 @@
   
     drawVisor();
     animate();
+}
+catch (err) {
+  
+}
   </script>
 </body>
 
